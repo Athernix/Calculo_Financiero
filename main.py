@@ -1,7 +1,7 @@
-#importación de Interfaz
-from UI.Views.ui_manin import MainWindow
+import tkinter as tk
+from UI.Views.main_ui import MainUI
 
-# Ejecutar la aplicación
 if __name__ == "__main__":
-    app = MainWindow()
-    app.mainloop()
+    root = tk.Tk()
+    app = MainUI(root)
+    root.mainloop()
