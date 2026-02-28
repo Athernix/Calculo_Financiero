@@ -11,7 +11,7 @@ class Sidebar(tk.Frame):
     def _build_widgets(self):
         # LOGO
         tk.Label(
-            self, text="⚡ Cálculo Pro", bg=self.theme.SECONDARY, 
+            self, text="Calculo Financiero", bg=self.theme.SECONDARY, 
             fg=self.theme.TEXT_DARK, font=self.theme.FONT_TITLE, anchor="w"
         ).pack(fill="x", pady=30, padx=20)
 
